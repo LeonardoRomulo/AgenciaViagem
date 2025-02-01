@@ -281,22 +281,20 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 20px;
-   
+    gap: 10px;
+    padding: 0 0 40px 0;
 }
 
 .rede-sociais {
     width: 288px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    padding: 20px 0 0 0;
+    gap: 10px;
 }
 
 .contato-block {
     display: flex;
     align-items: center;
-    gap: 10px;
 }
 
 .img-rodape {

@@ -35,24 +35,24 @@
                         <div class="info-pessoal">
                             <label for="nome">Nome</label>
                             <input type="text" name="nome"
-                                placeholder="Nome Completo">
+                                placeholder="Nome Completo" required>
                             <label for="email">Email</label>
                             <input type="email" name="email"
-                                placeholder="Email para contato">
+                                placeholder="Email para contato" required>
                             <label for="celular">Telefone</label>
                             <input type="cel" name="celular"
                                 pattern="\([0-9]{2}\) [0-9]{5}-[0-9]{4}"
-                                placeholder="(XX) XXXX-XXXX" id="celular">
+                                placeholder="(XX) XXXX-XXXX" id="celular" required>
                         </div>
                         <div class="datas">
                             <div class="ida">
                                 <label for="ida">Data da ida</label>
-                                <input type="date" name="partida" id="ida">
+                                <input type="date" name="partida" id="ida" required>
                             </div>
                             <div class="volta">
                                 <label for="volta">Data da volta</label>
                                 <input type="date" name="chegada"
-                                    id="volta">
+                                    id="volta" required>
                             </div>
                         </div>
                         <div class="local">
@@ -60,7 +60,7 @@
                                 <div>
                                     <label for="origem">Origem</label>
                                     <select name="origem" id="origem">
-                                        <option selected value>Partindo
+                                        <option selected value="">Partindo
                                             de</option>
                                         <option value="AM">Amazonas</option>
                                         <option value="RJ">Rio de
@@ -139,23 +139,23 @@
                             </div>
                             <div class="container-principal limitar-secao">
                                 <div class="box-destaque">
-                                    <img src="assets/imagens/rio.jpg" alt>
+                                    <img src="assets/imagens/rio.jpg" alt="Rio de Janeiro">
                                     <span class="cidade-principal">Rio de Janeiro</span>
                                 </div>
                                 <div class="box">
-                                        <img src="assets/imagens/manaus.jpg" alt>
-                                        <span class="cidade">manaus</span>
+                                        <img src="assets/imagens/manaus.jpg" alt="Manaus">
+                                        <span class="cidade">Manaus</span>
                                 </div>
                                 <div class="box">
-                                    <img src="assets/imagens/saopaulo.jpg" alt>
+                                    <img src="assets/imagens/saopaulo.jpg" alt="São Paulo">
                                     <span class="cidade">São Paulo</span>
                                 </div>
                                 <div class="box">
-                                    <img src="assets/imagens/niteroi.jpg" alt>
+                                    <img src="assets/imagens/niteroi.jpg" alt="Ponte Niterói">
                                     <span class="cidade">Rio de Janeiro</span>
                                 </div>
                                 <div class="box-responser box">
-                                    <img src="assets/imagens/maranhao.jpg" alt>
+                                    <img src="assets/imagens/maranhao.jpg" alt="Maranhão">
                                     <span class="cidade">Maranhão</span>
                                 </div>
                             </div>
